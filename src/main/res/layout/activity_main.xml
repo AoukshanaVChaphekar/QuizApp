@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:drawable="@android:color/primary_text_dark"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <ImageView
+
+        android:id="@+id/icon"
+        android:layout_width="127dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/Image"
+        app:srcCompat="@drawable/quiz"
+        tools:srcCompat="@drawable/quiz" />
+
+    <TextView
+        android:id="@+id/question_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="@string/question_1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/q1"
+        android:textSize="30sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+
+                android:id="@+id/RbuttonT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/True"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/RbuttonF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/False"
+                android:textSize="20sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <ImageButton
+            android:id="@+id/prev"
+            android:layout_width="63dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:onClick="prev"
+            app:srcCompat="@drawable/previous" />
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="63dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:onClick="next"
+            app:srcCompat="@drawable/next" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

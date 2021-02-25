@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Quiz</string>
+    <string name="question_1">Question 1</string>
+    <string name="Image">Icon</string>
+    <string name="q1"><b>The five rings on the Olympic flag are interlocking?</b></string>
+    <string name="q2">Mount Kilimanjaro is the highest mountain in the world?</string>
+    <string name="q3">A group of swans is known as a bevy?</string>
+    <string name="q4">Sydney is the capital of Australia?</string>
+    <string name="q5">The Penny Black is an old-fashioned coin?</string>
+    <string name="q6">A heptagon has eight sides?</string>
+    <string name="q7">The star sign Capricorn is represented by a goat?</string>
+    <string name="q8">Fish cannot blink?</string>
+    <string name="q9">Seahorses have no teeth or stomach?</string>
+    <string name="q10">Nepal is the only country in the world which does not have a rectangular flag?</string>
+
+    <string name="True">True</string>
+    <string name="False">False</string>
+    <string name="check">Check!</string>
+    <string name="next">Next</string>
+    <string name="replay">Replay</string>
+    <string name="end_game">End Game</string>
+    <string name="scoreText">scoreText</string>
+    <string name="your_score">Your Score</string>
+</resources>
